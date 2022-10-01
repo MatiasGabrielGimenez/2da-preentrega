@@ -220,28 +220,7 @@ img{
     font-family: 'Poppins', sans-serif;
     color: black;
 }
-header{
-    grid-area: header;
-}
-.one{
-    grid-area: one;
-}
-.two{
-    grid-area: two;
-}
-.youtube{
-    grid-area: youtube;
-}
-.three{
-    grid-area: three;
-}
-.parrrafo{
-    grid-area: parrafo;
-}
-footer{
-    
-    grid-area: footer;
-}
+
 /* aplico responsive a informacion util, contacto y servicios */
 
 @media (max-width:480px){
