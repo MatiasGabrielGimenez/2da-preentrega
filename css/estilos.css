@@ -4,10 +4,12 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     background-image: url(../img/fondo.jpg);
     display: flex;
     flex-direction: column;
+    
 }
 
 header{
@@ -80,7 +82,7 @@ section{
 
 
 
-h1{
+h1, .correccion{
     font-family: 'Russo One', sans-serif;
     text-align: center;
     color: aliceblue;
@@ -91,7 +93,7 @@ h2{
     text-align: center;
     color: aliceblue;
 }
-h4 {
+h4{
     font-family: 'Russo One', sans-serif;
     color: red;
 }
@@ -115,7 +117,7 @@ p{
 }
 
 img{
-    width: 500px;
+    width: 400px;
     height: 300px;
     border-radius: 35px;
     border:rgb(255, 25, 0);
@@ -187,14 +189,9 @@ img{
 
 .img-5{
     margin-top: 20px;
-    width: 500px;
+    width: 400px;
 }
-.img-6 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.img-7{
+.img-6,.img-7 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -223,6 +220,64 @@ img{
     font-family: 'Poppins', sans-serif;
     color: black;
 }
+header{
+    grid-area: header;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.youtube{
+    grid-area: youtube;
+}
+.three{
+    grid-area: three;
+}
+.parrrafo{
+    grid-area: parrafo;
+}
+footer{
+    
+    grid-area: footer;
+}
+/* aplico responsive a informacion util, contacto y servicios */
+
+@media (max-width:480px){
+    .mediaq1{
+        display:flex;
+        flex-direction: column;
+}
+header{
+    display: flex;
+    min-height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.item-4{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+}
+    
+
+
+
+
+
 
 
 
