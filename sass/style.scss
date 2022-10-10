@@ -1,47 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,200&family=Roboto+Condensed&family=Russo+One&display=swap');
+@import "fuentes";
+@import "generales";
+@import "nav";
 
-*{
-    padding: 0;
-    margin: 0;
-}
 
-body{
-    background-image: url(../img/fondo.jpg);
-    display: flex;
-    flex-direction: column;
-    
-}
 
-header{
-    background-image:url(../img/4028.jpg);
-    padding: 35px;
-    margin: 10px 30px 10px 30px;
-    border: black solid;
-}
 
-.barra-navegacion{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-ul{
-    list-style-type: none;
-}
 
-a{
-    font-family: 'Russo One', sans-serif;
-    text-decoration: none;
-    color:black;
-}
 
-footer{
-    margin: 60px 30px 20px 30px;
-    background-image:url(../img/4028.jpg);
-    padding: 35px;
-    border: solid rgb(0, 0, 0);
-}
+
+
+
+
+
+
+
 
 section{
     margin: 20px 10px 20px 10px;
@@ -121,7 +94,7 @@ img{
     height: 300px;
     border-radius: 35px;
     border:rgb(255, 25, 0);
-    margin: 0px 25px 0px 25px;
+    margin: 25px 25px 0px 25px;
 
 }
 /* APLICO ANIMACION */
@@ -214,6 +187,7 @@ img{
 .row{
     display: flex;
     flex-direction: row;
+    
 
 }
 .accordion-body{
@@ -221,10 +195,10 @@ img{
     color: black;
 }
 
-/* aplico responsive a informacion util, contacto y servicios */
+/* aplico responsive */
 
 @media (max-width:480px){
-    .mediaq1{
+    .mediaq1, .nosotros__container, .mq1, .inicio, .willard3, .row{
         display:flex;
         flex-direction: column;
 }
@@ -247,35 +221,28 @@ header{
 footer{
     display: flex;
     flex-direction: column;
-
-}
-
-}
     
 
+}
+.row{
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
 
+}
+@media (max-width: 768px) {
+        .mediaq1, .nosotros__container, .mq1, .inicio, .willard3, .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        }
+        .row, .row-1{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
 
+        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }

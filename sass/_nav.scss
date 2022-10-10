@@ -1,0 +1,21 @@
+header{
+    background-image:url(../img/4028.jpg);
+    padding: 35px;
+    margin: 10px 30px 10px 30px;
+    border: black solid;
+    .barra-navegacion{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style-type: none;
+                            a{
+                                font-family: 'Russo One', sans-serif;
+                                text-decoration: none;
+                                color:black;
+                                
+            }    
+        }
+
+    }
+
