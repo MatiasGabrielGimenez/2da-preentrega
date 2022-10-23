@@ -90,12 +90,12 @@ h2 {
 
 h4 {
   font-family: "Russo One", sans-serif;
-  color: red;
+  color: rgb(134, 134, 225);
 }
 
 h5 {
   font-family: "Russo One", sans-serif;
-  color: red;
+  color: rgb(134, 161, 225);
 }
 
 p {
@@ -116,12 +116,6 @@ img {
   border-radius: 35px;
   border: rgb(255, 25, 0);
   margin: 25px 25px 0px 25px;
-}
-
-/* APLICO ANIMACION */
-.item-1:hover {
-  transform: scale(2);
-  transition: all 2s;
 }
 
 /* CURVA DE VELOCIDAD */
@@ -203,7 +197,6 @@ img {
 }
 
 .youtube {
-  border: solid 5px rgb(255, 25, 0);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -215,6 +208,7 @@ img {
 }
 
 .img-6, .img-7 {
+  margin: 0px 0px 15px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -222,6 +216,7 @@ img {
 
 .item-6 {
   margin-top: 20px;
+  margin-right: 20px;
 }
 
 .row-1 {
@@ -235,6 +230,9 @@ img {
 .row {
   display: flex;
   flex-direction: row;
+  row-gap: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .accordion-body {
@@ -276,11 +274,17 @@ img {
   .mediaq1, .nosotros__container, .mq1, .inicio, .willard3, .row {
     display: flex;
     flex-direction: column;
-    margin: 0;
+  }
+  header {
+    display: flex;
   }
   .row, .row-1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
